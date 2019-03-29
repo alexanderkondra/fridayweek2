@@ -1,14 +1,9 @@
-.titletop {
-background-image: url("");
-background:cover;
-text-align: center;
-color: black;
+body, html {
+  width: 100%;
+  font-family: 'Roboto Slab', serif;
 }
 
-h1 {
-
-}
-
-body {
-  background-color: #lightgrey;
+h3 {
+  text-align: center;
+  padding-bottom: 30px;
 }
