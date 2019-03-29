@@ -1,23 +1,91 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Track Suggester webpage</title>
-    <script src="js/jquery-3.3.1.js"type="text/javascript"></script>
-    <script src="js/bootstrap.js" type="text/javascript"></script>
-    <script src="js/scripts.js"type="text/javascript"></script>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Track Suggester webpage</title>
+  <script src="js/jquery-3.3.1.js"type="text/javascript"></script>
+  <script src="js/bootstrap.js" type="text/javascript"></script>
+  <script src="js/scripts.js"type="text/javascript"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+</head>
 
-  <body>
-    <div class="container">
+<body>
+  <div class="container">
     <div class="titletop">
-    <h1 class="texttop">WHAT PROGRAMMING LANGUAGE SHOULD I LEARN ?</h1>
-    <p class="lead">Find a language that resonates with your interests.</p>
-  </div>
-</div>
+      <h1 class="texttop">WHAT PROGRAMMING LANGUAGE SHOULD I LEARN ?</h1>
+      <p class="lead">Find a language that resonates with your interests.</p>
+    </div>
 
+    <div class="formBody">
+      <div class="panel">
+        <div class="formInfo">
+          <label for="name">Please enter your name</label>
+          <input type="text" class="name" id="name">
+        </div>
+      </div>
+      <div class="panel">
+        <div class "formInfo">
+          <labor for="q1">Do you prefer Design or Functionality? </label>
+            <select class= "formInfo" id="">
+              <option></option>
+              <option>I prefer Design</option>
+              <option>Functionality of a website</option>
+              <option>I'm interested in both</option>
+            </select>
+          </div>
+        </div>
 
-  </body>
-</html>
+        <div class="panel">
+          <div class="formInfo">
+            <labor for "q2">What size company would be ideal for you?</label>
+              <select class= "formInfo" id="">
+                <option></option>
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class "formInfo">
+              <labor for="q3">Interested in working with a larger company?</label>
+                <select class= "formInfo" id="">
+                  <option></option>
+                  <option>Yes</option>
+                  <option>No</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="panel">
+              <div class "formInfo">
+                <labor for="q4">What sounds most interesting?</label>
+                  <select class= "formInfo" id="">
+                    <option></option>
+                    <option>Web layout</option>
+                    <option>Web development</option>
+                    <option>App development</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="panel">
+                <div class "formInfo">
+                  <labor for="q5">Do you consider yourself to be artistically inclined? </label>
+                    <select class= "formInfo" id="">
+                      <option></option>
+                      <option>Yes</option>
+                      <option>No</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="btn-holder">
+              <button type="button" class="btn btn-primary btn-md" id="track-results">Track Results</button>
+            </div>
+          </div>
+        </body>
+        </html>
