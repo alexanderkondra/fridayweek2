@@ -27,3 +27,23 @@ h3 {
 .btn-lg {
   margin-top: 20px;
 }
+
+.btn-lg:hover {
+  background-color: #0bbcba;
+  color: #fff;
+}
+
+#survey_well {
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 640px;
+  margin: auto;
+}
+
+#result_well {
+  display: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 640px;
+  margin: auto;
+}
