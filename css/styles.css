@@ -7,3 +7,19 @@ h3 {
   text-align: center;
   padding-bottom: 30px;
 }
+
+.jumbotron {
+  background-color: #1C1C1C;
+  color: #fff;
+  text-align: center;
+  border-radius: 0 !important;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.header {
+  background-color: #fff;
+  margin: 12px;
+  margin-left: 20px;
+  height: 70px;
+}
