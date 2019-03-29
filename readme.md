@@ -1,6 +1,6 @@
 Track Suggester webpage
 
- This page is to help you recommend witch programming language to choose.
+ This page is to help you suggest witch programming language to choose.
 
 Author: Alexander Kondra
 
